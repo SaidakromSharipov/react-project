@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.container {
+    background: linear-gradient(129.31deg, rgba(52, 139, 167, 0.8) 11.77%, rgba(0, 0, 0, 0) 76.11%), url(./img/img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+.Navbar ul div {
+    position: absolute;
+    width: 133px;
+    height: 48px;
+    left: 30px;
+    top: 21px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.Navbar ul div:hover {
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+.Navbar ul li {
+    position: relative;
+    display: inline;
+    flex-direction: column;
+    width: 582px;
+    height: 24px;
+    left: 496px;
+    top: 33px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.Navbar ul li:hover {
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+.Navbar ul li:active {
+    color: rgb(236, 208, 172);
+    font-size: 17px;
+    box-shadow: 1px 1px 1px 1px blanchedalmond;
+}
+
+
+.Navbar ul button {
+    position: absolute;
+    width: 160px;
+    height: 56px;
+    left: 1190px;
+    top: 17px;
+    background: #FFC814;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.Navbar ul button:hover {
+    cursor: pointer;
+}
+
+.Navbar ul button:active {
+    box-shadow: 1px 1px 1px 3px blanchedalmond;
+}
+
+.Mainn {
+    position: absolute;
+    width: 563px;
+    height: 428px;
+    left: 30px;
+    top: 0px;
+}
+
+.Mainn-title {
+    position: absolute;
+    width: 488px;
+    height: 228px;
+    left: 30px;
+    top: 187px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+.Mainn-content {
+    position: absolute;
+    width: 563px;
+    height: 90px;
+    left: 30px;
+    top: 432px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+.Mainn-btn {
+    position: absolute;
+    width: 160px;
+    height: 56px;
+    left: 30px;
+    top: 559px;
+    background: #FFC814;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.Mainn-btn:active {
+    box-shadow: 1px 1px 1px 3px blanchedalmond;
+}
+
+.Mainn-btn1 {
+    position: absolute;
+    width: 160px;
+    height: 56px;
+    left: 210px;
+    top: 559px;
+    background: #FFFDFD;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+}
+
+.Mainn-btn1:active {
+    box-shadow: 1px 1px 1px 3px #FFC814;
+}
+
+.cas {
+    display: flex;
+    position: relative;
+    left: 29px;
+    top: 789px;
+}
+
+
+.cas1,
+.cas2,
+.cas3,
+.cas4 {
+    position: relative;
+    width: 120px;
+    height: 45px;
+    background: #fff;
+    border-radius: 4px 4px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F3347;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.cas1 {
+    margin-left: 1px;
+    background: #FFC814;
+}
+
+.cass {
+    position: relative;
+    width: 1231px;
+    height: 162px;
+    left: 30px;
+    top: 789px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 24px #E4E2EE;
+}
+
+.cass .mm {
+    position: relative;
+    line-height: 24px;
+    display: flex;
+}
+
+.mm1 {
+    position: relative;
+    left: 30px;
+    top: 38px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F3347;
+}
+
+.mm2 {
+    position: relative;
+    left: 119px;
+    top: 38px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F3347;
+}
+
+.mm3 {
+    position: relative;
+    left: 272px;
+    top: 38px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F3347;
+}
+
+.mm4 {
+    position: relative;
+    left: 411px;
+    top: 38px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F3347;
+}
+
+.mm5 {
+    position: relative;
+    left: 592px;
+    top: 38px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F3347;
+}
+
+.nn {
+    display: flex;
+}
+
+.nn1,
+.nn2,
+.nn3,
+.nn4,
+.nn5,
+.nn6 {
+    position: relative;
+    width: 170px;
+    height: 56px;
+    left: 30px;
+    top: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 24px #E4E2EE;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-right: 54px;
+}
+
+.nn6 {
+    background: #FFC814;
+}
+
+.msm {
+    position: relative;
+    width: 1090px;
+    height: 310px;
+    left: 48px;
+    top: 972px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 430px;
+    line-height: 300px;
+    color: rgba(244, 246, 250, 0.8);
+    z-index: -10;
+}
+
+.msm2 {
+    position: relative;
+    width: 410px;
+    height: 520px;
+    left: 60px;
+    top: 758px;
+    background: url(./img/img2.jpeg);
+    filter: drop-shadow(0px 6px 24px #E4E2EE);
+    border-radius: 14px;
+    background-size: cover;
+}
+
+.msm3 {
+    position: relative;
+    width: 266px;
+    height: 282px;
+    left: 371px;
+    top: 535px;
+    background: url(./img/img3.png);
+    filter: drop-shadow(0px 6px 24px #E4E2EE);
+    border-radius: 14px;
+    background-size: cover;
+}
+
+.msm4 {
+    position: relative;
+    width: 91px;
+    height: 16px;
+    left: 659px;
+    top: -39px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 15px;
+    color: #FFC814;
+}
+
+.msm5 {
+    position: relative;
+    width: 479px;
+    height: 97px;
+    left: 659px;
+    top: -24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #1F3347;
+}
+
+.msm6 {
+    position: relative;
+    width: 521px;
+    height: 72px;
+    left: 659px;
+    top: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9DA1B4;
+}
+
+/* .msm7 {
+    position: relative;
+    width: 14px;
+    height: 99px;
+    left: 659px;
+    top: 49px;
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #9DA1B4;
+} */
+
+.msm8 {
+    position: relative;
+    width: 496px;
+    height: 108px;
+    left: 688px;
+    top: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #9DA1B4;
+}
+
+.msm9 {
+    position: absolute;
+    width: 67px;
+    height: 28px;
+    left: 659px;
+    top: 1485px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    color: #FFC814;
+}
+
+.msm10 {
+    position: absolute;
+    width: 91px;
+    height: 28px;
+    left: 842px;
+    top: 1485px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    color: #FFC814;
+}
+
+.msm11 {
+    position: absolute;
+    width: 104px;
+    height: 28px;
+    left: 1049px;
+    top: 1485px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    color: #FFC814;
+}
+
+.msm12 {
+    position: relative;
+    width: 88px;
+    height: 45px;
+    left: 659px;
+    top: 91px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9DA1B4;
+}
+
+.msm13 {
+    position: relative;
+    width: 101px;
+    height: 42px;
+    left: 842px;
+    top: 46px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9DA1B4;
+}
+
+.msm14 {
+    position: relative;
+    width: 89px;
+    height: 42px;
+    left: 1049px;
+    top: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9DA1B4;
+}
+
+.msm15 {
+    position: relative;
+    width: 160px;
+    height: 56px;
+    left: 659px;
+    top: 57px;
+    background: #FFC814;
+    border-radius: 4px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1F3347;
+    padding: 18px 39px;
+}
+
+.msm16 {
+    position: relative;
+    width: 138px;
+    height: 442px;
+    left: 1213px;
+    top: -380px;
+    background: url(./img/img4.png);
+    background-size: cover;
+}
+
+.msm1{
+    height: 1468px;
+}
